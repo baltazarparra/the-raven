@@ -104,3 +104,9 @@ background: linear-gradient(
 pointer-events: none;
 z-index: 9;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em !important;
+  }  
+}

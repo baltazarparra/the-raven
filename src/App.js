@@ -70,7 +70,7 @@ function App() {
       <Scroll html style={{width: '100%'}}>
          <Container style={{height: '100px', position: 'relative'}} >
             <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute',width: '100%',height: '100vh', padding: '0px 30px 0px'}}>
-              <Col xs={6}>
+              <Col xs={12} sm={6}>
                 <div>
                   <h1 style={{marginBottom: '0px'}}>
                     “Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—
@@ -79,7 +79,7 @@ function App() {
               </Col>
             </Row>
             <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute',width: '100%',height: '100vh', padding: '0px 30px 0px',top: '100vh'}}>
-              <Col xs={6}>
+              <Col xs={12} sm={6}>
                   <div>
                     <h1 style={{marginBottom: '0px'}}>
                       “Get thee back into the tempest and the Night's Plutonian shore!
@@ -88,7 +88,7 @@ function App() {
               </Col>
             </Row>
             <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute',width: '100%',height: '100vh', padding: '0px 30px 0px',top: '200vh'}}>
-              <Col xs={6}>
+              <Col xs={12} sm={6}>
                   <div>
                     <h1 style={{marginBottom: '0px'}}>
                       Leave no black plume as a token of that lie thy soul hath spoken!
@@ -97,7 +97,7 @@ function App() {
               </Col>
             </Row> 
             <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute',width: '100%',height: '100vh', padding: '0px 30px 0px',top: '300vh'}}>
-              <Col xs={6}>
+              <Col xs={12} sm={6}>
                   <div>
                     <h1 style={{marginBottom: '0px'}}>
                       Leave my loneliness unbroken!—quit the bust above my door!
@@ -107,7 +107,7 @@ function App() {
             </Row>   
 
             <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute',width: '100%',height: '100vh', padding: '0px 30px 0px',top: '400vh'}}>
-              <Col xs={8}>
+              <Col xs={12} sm={8}>
                   <div>
                     <h1 style={{marginBottom: '0px'}}>
                       Take thy beak from out my heart, and take thy form from off my door!”
@@ -117,7 +117,7 @@ function App() {
             </Row>  
 
             <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute',width: '100%',height: '100vh', padding: '0px 30px 0px',top: '500vh'}}>
-              <Col xs={6}>
+              <Col xs={12} sm={8}>
                   <div>
                     <h1 style={{marginBottom: '0px'}}>
                       <em>Quoth the Raven “Nevermore.”</em>
