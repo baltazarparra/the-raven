@@ -62,8 +62,7 @@ function App() {
           <Bird scale={0.2} position={[-10,-40,-1]} />
         </Float>
         {/* bot */}
-        <Sparkles noise={0} count={500} speed={0.01} size={0.6} color={"#FFD2BE"} opacity={10} scale={[20,100,20]}></Sparkles>
-        <Sparkles noise={0} count={50} speed={0.01} size={10} color={"#FFF"} opacity={2} scale={[30,100,10]} ></Sparkles>
+        <Sparkles noise={0} count={200} speed={0.01} size={0.6} color={"#fff"} opacity={8} scale={[20,100,20]}></Sparkles>
                         
       </Scroll>
 
