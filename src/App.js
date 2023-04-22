@@ -20,7 +20,7 @@ function App() {
         <Vignette eskil={false} offset={.01} darkness={0.5} />
       </EffectComposer>    
     
-      <color attach="background" args={['#111']} />
+      <color attach="background" args={['#333']} />
       <ambientLight intensity={0.2} />
       <spotLight position={[0, 25, 0]} angle={1.3} penumbra={1} castShadow intensity={2} shadow-bias={-0.0001} />
       <Environment
