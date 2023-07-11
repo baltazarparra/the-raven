@@ -21,14 +21,14 @@ function App() {
       <color attach="background" args={['#333']} />
       <Environment files="https://cdn.jsdelivr.net/gh/Sean-Bradley/React-Three-Fiber-Boilerplate@environment/public/img/venice_sunset_1k.hdr" />
 
-      <ScrollControls pages={6} damping={0.25}>
+      <ScrollControls pages={6} damping={1}>
         <Scroll>
           {/* top */}
           <Float
-            speed={1} // Animation speed, defaults to 1
-            rotationIntensity={1} // XYZ rotation intensity, defaults to 1
+            speed={0.6} // Animation speed, defaults to 1
+            rotationIntensity={0.6} // XYZ rotation intensity, defaults to 1
           >
-            <Raven scale={0.4} position={[-1, -10, -10]} />
+            <Raven scale={1} position={[0, -30, -30]} />
           </Float>
           {/* top */}
 
